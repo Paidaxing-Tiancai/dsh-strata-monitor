@@ -1,0 +1,6 @@
+- insert:
+    - id: strata-monitor
+      name: 'dsh-strata-monitor'
+      config:
+        baseUrl: ''
+        apiKey: ''

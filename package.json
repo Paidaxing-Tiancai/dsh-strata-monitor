@@ -1,0 +1,27 @@
+{
+  "name": "dsh-strata-monitor",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "author": "loilvl",
+  "description": "Shows the Strata model server's monitor panel (state, speed, GPU, cache, requests) inside the Harness UI.",
+  "meta": {
+    "title": "Strata Monitor",
+    "description": "Embeds the Strata server's model status dashboard as a Harness page: model state, decode/prefill speed, GPU metrics, conversation cache, and recent requests."
+  },
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "files": ["index.js", "client.js", "icon.svg", "README.md", "LICENSE"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  }
+}
