@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-15T14:58:56Z",
-  "revision": "25dafb58885f982753d8703147764e41e71e8455",
+  "generatedAt": "2026-10-15T08:12:30Z",
+  "revision": "994f36a0dcd5a393f48bcbdf91b3c00581c81a4f",
   "items": [
     {
       "id": "dsh-strata-monitor",
@@ -14,7 +14,7 @@
       },
       "installSource": {
         "kind": "github",
-        "commit": "25dafb58885f982753d8703147764e41e71e8455"
+        "commit": "994f36a0dcd5a393f48bcbdf91b3c00581c81a4f"
       },
       "publisher": {
         "name": "loilvl",
