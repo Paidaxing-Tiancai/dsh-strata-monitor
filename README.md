@@ -18,10 +18,28 @@ A model-server monitor panel for DeepSeek Harness, mirroring the Strata server's
 
 ## 安装 / Install
 
-在 Harness 的插件管理中安装本 bundle（选择本目录即可），或在对话里让代理执行：
+### 方式一：插件市场（推荐）/ Via the plugin market (recommended)
+
+在 Harness 的插件市场里添加自定义目录来源（catalog source），manifest URL 填：
 
 ```
-plugin_manager install_bundle → 本目录的绝对路径
+https://raw.githubusercontent.com/Paidaxing-Tiancai/dsh-strata-monitor/main/catalog-source.json
+```
+
+添加后在市场中搜索 `dsh-strata-monitor`，点击安装即可。
+
+Add this custom catalog source in the Harness plugin market, then search for `dsh-strata-monitor` and install:
+
+```
+https://raw.githubusercontent.com/Paidaxing-Tiancai/dsh-strata-monitor/main/catalog-source.json
+```
+
+### 方式二：手动 / Manually
+
+在 Harness 的插件管理中安装本 bundle（clone 本仓库后选择该目录），或在对话里让代理执行：
+
+```
+plugin_manager install_bundle → 本仓库 clone 后的绝对路径
 ```
 
 安装后刷新页面（Ctrl+R），侧边栏会出现「模型监控」图标。

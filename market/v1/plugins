@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-15T14:58:56Z",
+  "revision": "25dafb58885f982753d8703147764e41e71e8455",
+  "items": [
+    {
+      "id": "dsh-strata-monitor",
+      "name": "dsh-strata-monitor",
+      "displayName": "Strata Monitor",
+      "summary": "在 Harness 里嵌入 Strata 模型服务器监控：模型状态、解码/预填充速度、GPU 指标、会话缓存、最近请求；附悬浮小窗与输入框状态条。",
+      "categories": ["monitoring", "interface"],
+      "repository": {
+        "url": "https://github.com/Paidaxing-Tiancai/dsh-strata-monitor"
+      },
+      "installSource": {
+        "kind": "github",
+        "commit": "25dafb58885f982753d8703147764e41e71e8455"
+      },
+      "publisher": {
+        "name": "loilvl",
+        "url": "https://github.com/Paidaxing-Tiancai"
+      },
+      "media": {
+        "icon": {
+          "url": "https://raw.githubusercontent.com/Paidaxing-Tiancai/dsh-strata-monitor/main/icon.svg",
+          "alt": "Strata Monitor"
+        }
+      },
+      "updatedAt": "2026-10-15T14:58:56Z"
+    }
+  ],
+  "page": {}
+}

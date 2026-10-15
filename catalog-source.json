@@ -1,0 +1,22 @@
+{
+  "manifestVersion": "1.0.0",
+  "providerId": "com.github.paidaxingtiancai.dsh-plugins",
+  "name": "loilvl's DSH plugins",
+  "description": "Community DSH plugins by loilvl.",
+  "homepage": "https://github.com/Paidaxing-Tiancai/dsh-strata-monitor",
+  "attribution": {
+    "name": "loilvl",
+    "url": "https://github.com/Paidaxing-Tiancai"
+  },
+  "transport": {
+    "kind": "https-json",
+    "endpoint": "https://raw.githubusercontent.com/Paidaxing-Tiancai/dsh-strata-monitor/main/market/v1/plugins",
+    "method": "GET"
+  },
+  "query": {
+    "supported": [],
+    "defaultLimit": 50,
+    "maxLimit": 50,
+    "sorts": []
+  }
+}
