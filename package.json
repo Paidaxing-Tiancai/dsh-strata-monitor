@@ -1,7 +1,15 @@
 {
   "name": "dsh-strata-monitor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paidaxing-tiancai/dsh-strata-monitor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Paidaxing-Tiancai/dsh-strata-monitor/issues"
+  },
+  "homepage": "https://github.com/Paidaxing-Tiancai/dsh-strata-monitor#readme",
   "license": "MIT",
   "author": "loilvl <Paidaxing-Tiancai@users.noreply.github.com>",
   "description": "Shows the Strata model server's monitor panel (state, speed, GPU, cache, requests) inside the Harness UI.",
